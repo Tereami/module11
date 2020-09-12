@@ -107,24 +107,34 @@ main {
   border-radius: 10px;
 }
 
-.fruit_violet {
-  background: #8b00ff;
-}
 
-.fruit_green {
-  background: #84cd1b;
-}
 
-.fruit_carmazin {
-  background: #dc143c;
+.fruit_red {
+  background: #dc1414;
 }
-
+.fruit_orange {
+  background: #ff8000;
+}
 .fruit_yellow {
   background: #ffd800;
 }
-
-.fruit_lightbrown {
-  background: #cd853f;
+.fruit_green {
+  background: #84cd1b;
+}
+.fruit_cyan {
+  background: #00d9ff;
+}
+.fruit_blue {
+  background: #1900ff;
+}
+.fruit_violet {
+  background: #8b00ff;
+}
+.fruit_white {
+  background: #a3a3a3;
+}
+.fruit_black {
+  background: #000000;
 }
 
 .fruit__info {
