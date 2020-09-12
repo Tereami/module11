@@ -30,7 +30,11 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  max-width: fit-content;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #00baba;
 }
 
 input {
@@ -42,9 +46,9 @@ input {
   vertical-align: middle;
   white-space: normal;
   background: none;
-  background-color: #3cbc8d;
+  background-color: #247759;
   color: white;
-  max-width: 200px;
+  width: 100%;
 }
 
 main {
@@ -63,7 +67,8 @@ main {
 
 /* Панель управления */
 .panel__wrapper {
-  flex-basis: 25%;
+  flex-basis: 20%;
+  min-width: 200px;
   max-height: inherit;
   overflow: hidden;
   background: aliceblue;
@@ -73,6 +78,8 @@ main {
 }
 
 .panel__devtools {
+  padding: 5px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;

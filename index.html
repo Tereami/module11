@@ -33,22 +33,31 @@
           <button class="filter__btn line">Фильтровать</button>
 
           <div class="line">
-            <span>Алгоритм сортировки:</span>
+            <span>Алгоритм:</span>
             <!-- TODO: указывается название алгоритма сортировки -->
             <span class="sort__kind"></span>
           </div>
+
+          <!-- TODO: при нажатии происходит смена алгоритма сортировки -->
+          <button class="sort__change__btn line">Сменить алгоритм</button>
+          
+          <div class="line">
+            <span>Сортировать по:</span>
+            <!-- TODO: указывается название алгоритма сортировки -->
+            <span class="sort__value"></span>
+          </div>
+
+          <button class="sort__changeValue__btn line">Сменить параметр</button>
+          <button class="sort__changeSortDirection__btn line">По возрастанию</button>
+
+          <!-- TODO: при нажатии происходит сортировка и рассчет времени сортировки -->
+          <button class="sort__action__btn line">Сортировать</button>
 
           <div class="line">
             <span>Время сортировки: </span>
             <!-- TODO: выводится время сортировки -->
             <span class="sort__time"></span>
           </div>
-
-          <!-- TODO: при нажатии происходит смена алгоритма сортировки -->
-          <button class="sort__change__btn line">Сменить алгоритм сортировки</button>
-
-          <!-- TODO: при нажатии происходит сортировка и рассчет времени сортировки -->
-          <button class="sort__action__btn line">Сортировать</button>
 
           <!-- пользователь указывает значения характеристик будущего фрукта -->
           <div class="line">
@@ -66,7 +75,6 @@
             <input class="weight__input" />
           </div>
 
-          <!-- TODO: при нажатии новый фрукт добавляется в конец списка -->
           <button class="add__action__btn line">Добавить фрукт</button>
         </div>
       </section>
@@ -74,7 +82,6 @@
       <!-- СПИСОК ЭКЗОТИЧЕСКИХ ФРУКТОВ -->
       <section class="fruits__wrapper">
         <h2 class="wrapper__title">Список экзотических фруктов</h2>
-        <!-- TODO: формировать список динамически (то есть закоментированный код удалить) -->
         <ul class="fruits__list">
         </ul>
       </section>
